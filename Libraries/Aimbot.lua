@@ -1,5 +1,5 @@
 local Aimbot = {}
-Aimbot.ClosestPlayer = function()
+Aimbot.ClosestPlayer = function(FOV_Enabled, FOV_Radius)
   local Closest_Target = nil
 	local Distance = math.huge
 	local MousePosition = Input:GetMouseLocation()
